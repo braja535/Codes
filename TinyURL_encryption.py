@@ -47,25 +47,30 @@ If you can enable caching, what would you cache and what's the expiry time? (Con
 '''
 ####
 Code Description and suggestion
-
-
 class Codec:
     def encode(self, longUrl):
        """Encodes a URL to a shortened URL.
 
         :type longUrl: str
         :rtype: str
-        """
-
-    def decode(self, shortUrl):
+       """
+   def decode(self, shortUrl):
         """Decodes a shortened URL to its original URL.
 
         :type shortUrl: str
         :rtype: str
         """
-
-
-        # Your Codec object will be instantiated and called as such:
+       # Your Codec object will be instantiated and called as such:
         # codec = Codec()
         # codec.decode(codec.encode(url))
 '''
+
+1. Take Entire URL
+2. Separate with domain name and exetension
+3. Extension Encode
+4. Encoded one can be Decoded
+5. Where to store it
+6. How to store
+7. Database
+
+
