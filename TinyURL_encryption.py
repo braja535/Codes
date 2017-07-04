@@ -73,4 +73,3 @@ class Codec:
 6. How to store
 7. Database
 
-
